@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --Branco-princ: #FFFFFF;
+    --Cinza-princ: #C0C0C0;
+    --Azul-botao: #167BF7;
+    --Branco-sec: #F9F9F9;
+    --Cor-de-fundo: #00030C;
+    --fonts-globais: 'inter'
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--Cor-de-fundo);
+    color: var(--Branco-princ);
+    font-family: var(--fonts-globais);
+    font-size: 16px;
+
+}
+
+.principal {
+    background-image: url(Img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    align-items: center;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+}
+
+.container__botao {
+    background-color: var(--Azul-botao);
+    padding: 1em;
+    border-radius: 0.5em;
+    color: var(--Branco-princ);
+    text-decoration: none;
+    display: block;
+}
+
+.botao__secundario {
+    background-color: transparent;
+    border: 1px solid var(--Branco-princ);
+    margin: 1em 0px;
+}
+
+.box {
+    margin: 0em 10em;
+}
+
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__desc {
+    font-size: 12px;
+    color: var(--Cinza-princ);
+}
+
+.container__imagem {
+    margin: 3em 0em;
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0px 10em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--Branco-princ);
+    margin-bottom: 0.2em;
+}
+
+.descricao__text {
+    color: var(--Branco-sec);
+
+}
+
+.botao__desc {
+    margin-top: 2em;
+    display: inline-block;
+}
+
+.img__sec {
+    margin: 0px 0px 0px 5em;
+}
+
+.lista__dispositivos {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    font-size: 48px;
+    color: var(--Branco-princ);
+}
+
+.item__lista {
+    color: var(--Branco-princ);
+    font-size: 32px;
+}
+
+.rodape__alura {
+    text-align: center;
+    margin-top: 20em;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--Branco-princ);
+}
+
+.item {
+    margin: 3em 1.5em;
+}
+
+.rodape {
+    color: var(--Cinza-princ);
+    font-size: 14px;
+}
+
+.fim {
+    margin: 3em 15em 2em 15em
+}
+
+.lista__dispositivos a:hover{
+    color: var(--Azul-botao);
+}
